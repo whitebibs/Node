@@ -1,0 +1,11 @@
+Exercise 2: Explore with the Node.js REPL
+
+Use the Node.js REPL to list the methods provided by the Node.js core crypto module. Use one of these methods to generate a random ID.
+
+function  generateId(){
+... return console.log(
+... global.crypto.randomUUID())
+... }
+generateId()
+
+18e80e37-e37a-4b04-b0b1-ddcca73f0b9b
